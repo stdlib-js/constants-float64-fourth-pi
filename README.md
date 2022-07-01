@@ -24,32 +24,30 @@ limitations under the License.
 
 > One fourth times the mathematical constant [π][pi].
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/constants-float64-fourth-pi
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
-To use in Observable,
-
 ```javascript
-FOURTH_PI = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-fourth-pi@umd/bundle.js' )
-```
-
-To include the bundle in a webpage,
-
-```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-fourth-pi@umd/bundle.js"></script>
-```
-
-If no recognized module system is present, access bundle contents via the global scope:
-
-```html
-<script type="text/javascript">
-(function () {
-    window.FOURTH_PI;
-})();
-</script>
+var FOURTH_PI = require( '@stdlib/constants-float64-fourth-pi' );
 ```
 
 #### FOURTH_PI
@@ -73,21 +71,11 @@ var bool = ( FOURTH_PI === 7.85398163397448309616e-1 );
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-fourth-pi@umd/bundle.js"></script>
-<script type="text/javascript">
-(function () {
+```javascript
+var FOURTH_PI = require( '@stdlib/constants-float64-fourth-pi' );
 
 console.log( FOURTH_PI );
 // => 7.85398163397448309616e-1
-
-})();
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -173,6 +161,7 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 [deno-url]: https://github.com/stdlib-js/constants-float64-fourth-pi/tree/deno
 [umd-url]: https://github.com/stdlib-js/constants-float64-fourth-pi/tree/umd
 [esm-url]: https://github.com/stdlib-js/constants-float64-fourth-pi/tree/esm
+[branches-url]: https://github.com/stdlib-js/constants-float64-fourth-pi/blob/main/branches.md
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/constants-float64-fourth-pi/main/LICENSE
 
@@ -180,7 +169,7 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/constants/float64/pi]: https://github.com/stdlib-js/constants-float64-pi/tree/umd
+[@stdlib/constants/float64/pi]: https://github.com/stdlib-js/constants-float64-pi
 
 <!-- </related-links> -->
 

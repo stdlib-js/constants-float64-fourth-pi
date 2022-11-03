@@ -31,7 +31,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import FOURTH_PI from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-fourth-pi@esm/index.mjs';
+import FOURTH_PI from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-fourth-pi@v0.0.8-esm/index.mjs';
 ```
 
 #### FOURTH_PI
@@ -61,7 +61,7 @@ var bool = ( FOURTH_PI === 7.85398163397448309616e-1 );
 <body>
 <script type="module">
 
-import FOURTH_PI from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-fourth-pi@esm/index.mjs';
+import FOURTH_PI from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-fourth-pi@v0.0.8-esm/index.mjs';
 
 console.log( FOURTH_PI );
 // => 7.85398163397448309616e-1

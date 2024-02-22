@@ -44,7 +44,7 @@ limitations under the License.
 To use in Observable,
 
 ```javascript
-FOURTH_PI = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-fourth-pi@umd/browser.js' )
+FOURTH_PI = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-fourth-pi@v0.2.1-umd/browser.js' )
 ```
 
 To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
@@ -56,7 +56,7 @@ var FOURTH_PI = require( 'path/to/vendor/umd/constants-float64-fourth-pi/index.j
 To include the bundle in a webpage,
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-fourth-pi@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-fourth-pi@v0.2.1-umd/browser.js"></script>
 ```
 
 If no recognized module system is present, access bundle contents via the global scope:
@@ -94,7 +94,7 @@ var bool = ( FOURTH_PI === 7.85398163397448309616e-1 );
 <!DOCTYPE html>
 <html lang="en">
 <body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-fourth-pi@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-fourth-pi@v0.2.1-umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
 

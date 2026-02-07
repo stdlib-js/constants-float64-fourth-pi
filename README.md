@@ -42,6 +42,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import FOURTH_PI from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-fourth-pi@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/constants-float64-fourth-pi/tags). For example,
+
+```javascript
 import FOURTH_PI from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-fourth-pi@v0.2.3-deno/mod.js';
 ```
 
@@ -67,7 +72,7 @@ var bool = ( FOURTH_PI === 7.85398163397448309616e-1 );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import FOURTH_PI from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-fourth-pi@v0.2.3-deno/mod.js';
+import FOURTH_PI from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-fourth-pi@deno/mod.js';
 
 console.log( FOURTH_PI );
 // => 7.85398163397448309616e-1
